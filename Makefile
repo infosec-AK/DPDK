@@ -7,7 +7,7 @@ RTE_TARGET ?= x86_64-native-linuxapp-gcc
 include $(RTE_SDK)/mk/rte.vars.mk
 
 # binary name
-APP = rx_demo
+APP = tx_demo
 
 # all source are stored in SRCS-y
 SRCS-y := main.c
